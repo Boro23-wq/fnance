@@ -1,18 +1,16 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
+import Home from './pages';
 
 function App() {
   return (
     <Router>
-      <Sidebar />
-      <Navbar />
+      <Home />
     </Router>
   );
 }
 
 export default App;
 
-// Switch to 1:07:05 for restart
+// start 2:47:47 for restart
